@@ -42,7 +42,7 @@ int main() {
             count++;
         k++;
     }while (k<(num/2));
-    if (count == 1)
+    if (count == 1 && num != 0 && num != 1)
         printf("%d is a prime number.\n", num);
     else
         printf("%d is not a prime number.\n", num);
