@@ -5,7 +5,7 @@ Write a program to convert Celsius to Farenheit.
 
 int main()
 {
-    float cel, far;
+    float cel;
 
     printf("Enter value of celsius: ");
     scanf("%f",&cel);
