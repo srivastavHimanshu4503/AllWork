@@ -12,6 +12,8 @@ int main() {
 
     int **k = &j;
 
+    printf("The value of i using i is %d\n", i);
+    printf("The value of i using j is %d\n", *j);
     printf("The value of i using k is %d\n", **k);
 
     return 0;
