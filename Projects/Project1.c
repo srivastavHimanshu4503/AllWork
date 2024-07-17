@@ -17,7 +17,7 @@ int generateRandomNumber()
     srand(time(NULL));
 
     // Generate a random number between 1 and 100
-    int random_number = (rand() % 100) + 1;
+    int random_number = (rand() % 100) + 1;  // '% n' operation limits the range to 0 to n.
 
     return random_number;
 }
